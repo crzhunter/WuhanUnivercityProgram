@@ -33,8 +33,8 @@ public class ProcedureAnimationManager : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log(Application.dataPath + "/json/partAssemble.json");
-        string json = File.ReadAllText(Application.dataPath + "/json/partAssemble.json");
+        Debug.Log(Application.streamingAssetsPath + "/json/partAssemble.json");
+        string json = File.ReadAllText(Application.streamingAssetsPath + "/json/partAssemble.json");
         assembleData = JsonMapper.ToObject(json);
         assembleData = assembleData["assembleList"];
         Steps = new List<ProcedurePartsModel>();

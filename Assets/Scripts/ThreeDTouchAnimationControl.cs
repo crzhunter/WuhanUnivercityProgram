@@ -54,7 +54,8 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
     }
 
     public void JsonParse(){
-        string partInfoJson = File.ReadAllText(Application.dataPath+"/json/partInfo.json");
+        Debug.Log(Application.streamingAssetsPath + "/json/partInfo.json");
+        string partInfoJson = File.ReadAllText(Application.streamingAssetsPath + "/json/partInfo.json");
        partInfoData= JsonMapper.ToObject(partInfoJson);
         Debug.Log("json parse complete");
     }
