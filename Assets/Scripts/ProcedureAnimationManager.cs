@@ -33,7 +33,7 @@ public class ProcedureAnimationManager : MonoBehaviour {
             Steps.Add(list[i]);
         }
         boxs = this.GetComponentsInChildren<BoxCollider>();
-        ToggleGrabObjec(false);
+        //ToggleGrabObjec(false);
     }
 
     private void OnDisable()

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using VRTK;
 using DG.Tweening;
+using UnityEngine.UI;
+using LitJson;
+using System.IO;
 
 public class ThreeDTouchAnimationControl : MonoBehaviour {
     public ProcedureAnimationManager am;
@@ -19,10 +22,15 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
     public GameObject modeObj;
     public GameObject runObj;
 
+    public CanvasGroup infoCanvas;
+
+    public Text tipText;
+
     public int startMode = 0;
     public int startIndex = 0;
     int resetTime = 0;
     
+    JsonData partInfoData;
     // Use this for initialization
     void Start () {
         leftHand.GetComponent<VRTK_InteractTouch>().ControllerTouchInteractableObject += ThreeDTouchAnimationControl_ControllerTouchInteractableObject;
@@ -30,11 +38,20 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
         RightHand.GetComponent<VRTK_InteractTouch>().ControllerTouchInteractableObject += ThreeDTouchAnimationControl_ControllerTouchInteractableObject;
         RightHand.GetComponent<VRTK_InteractTouch>().ControllerUntouchInteractableObject += ThreeDTouchAnimationControl_ControllerUntouchInteractableObject;
         grabHand.ControllerUngrabInteractableObject += GrabHand_ControllerUngrabInteractableObject;
+        grabHand.ControllerGrabInteractableObject +=        GrabHand_ControllergrabInteractableObject;
+JsonParse();
+    }
+
+    public void JsonParse(){
+        string partInfoJson = File.ReadAllText(Application.dataPath+"/json/partInfo.json");
+       partInfoData= JsonMapper.ToObject(partInfoJson);
     }
 
     private void GrabHand_ControllerUngrabInteractableObject(object sender, ObjectInteractEventArgs e)
     {
-        Debug.Log(11111111111111);
+        Debug.Log(e.target.gameObject.name);
+        Tweener tw= DOTween.To(()=>infoCanvas.alpha,x=>infoCanvas.alpha=x,0,1);
+        tw.SetDelay(1f);
         e.target.GetComponent<Rigidbody>().isKinematic = false;
         Debug.Log(e.target.gameObject.name);
         GrapObjectModel model = e.target.GetComponent<GrapObjectModel>();
@@ -47,6 +64,29 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
         ctrl.Append(model.transform.DOLocalMove(model.pos, 1.5f));
         ctrl.Join(model.transform.DOLocalRotate(model.rotation, 1.5f));
         ctrl.PlayForward();
+
+    }
+
+    private void GrabHand_ControllergrabInteractableObject(object sender, ObjectInteractEventArgs e)
+    {
+        Debug.Log(e.target.gameObject.name);
+        Pause();
+        GrapObjectModel model = e.target.GetComponent<GrapObjectModel>();
+        int partNum = model.partNum;
+        if(partInfoData==null) return;
+        JsonData list = partInfoData["partList"];
+        if(list.IsArray){
+            foreach(JsonData part in list){
+                if(int.Parse( part["partNum"].ToString())==partNum){
+                    string partInfo = part["partInfo"].ToString();
+                    tipText.text = partInfo;
+                    if(infoCanvas.alpha<1){
+                        Tweener tw= DOTween.To(()=>infoCanvas.alpha,x=>infoCanvas.alpha=x,1,1);
+                    }
+                    break;
+                }
+            }
+        }
     }
 
     private void ThreeDTouchAnimationControl_ControllerUntouchInteractableObject(object sender, ObjectInteractEventArgs e)

@@ -6,6 +6,8 @@ public class GrapObjectModel : MonoBehaviour
 {
     public Vector3 pos;
     public Vector3 rotation;
+
+    public int partNum=-1;
     // Use this for initialization
     void Start()
     {
