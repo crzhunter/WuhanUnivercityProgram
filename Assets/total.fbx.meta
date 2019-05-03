@@ -1,0 +1,1045 @@
+fileFormatVersion: 2
+guid: 1ac69122ed5e4404a926aa05c42a6959
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: A - Angular Contact Ball Bearings Gb-1
+    100002: A - Angular Contact Ball Bearings Gb-2
+    100004: A - Angular Contact Ball Bearings Gb-3
+    100006: A - Angular Contact Ball Bearings Gb-4
+    100008: A - Angular Contact Ball Bearings Gb-5
+    100010: A - Angular Contact Ball Bearings Gb-6
+    100012: "a - III\u8F74-1"
+    100014: "a - II\u8F74-2"
+    100016: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    100018: "A - \u4F4E\u901F\u7EA7-\u5C0F\u9F7F\u8F6E-1"
+    100020: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-1"
+    100022: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-10"
+    100024: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-11"
+    100026: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-12"
+    100028: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-13"
+    100030: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-14"
+    100032: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-15"
+    100034: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-16"
+    100036: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-17"
+    100038: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-18"
+    100040: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-19"
+    100042: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-2"
+    100044: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-20"
+    100046: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-21"
+    100048: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-22"
+    100050: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-23"
+    100052: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-24"
+    100054: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-25"
+    100056: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-26"
+    100058: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-27"
+    100060: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-28"
+    100062: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-29"
+    100064: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-3"
+    100066: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-30"
+    100068: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-31"
+    100070: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-32"
+    100072: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-33"
+    100074: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-34"
+    100076: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-35"
+    100078: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-36"
+    100080: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-37"
+    100082: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-38"
+    100084: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-39"
+    100086: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-4"
+    100088: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-40"
+    100090: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-41"
+    100092: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-42"
+    100094: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-43"
+    100096: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-44"
+    100098: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-5"
+    100100: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-6"
+    100102: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-7"
+    100104: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-8"
+    100106: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-9"
+    100108: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-10"
+    100110: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-11"
+    100112: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-12"
+    100114: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-13"
+    100116: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-14"
+    100118: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-3"
+    100120: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-4"
+    100122: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-5"
+    100124: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-6"
+    100126: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-7"
+    100128: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-8"
+    100130: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-9"
+    100132: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Socket Set Screws With Flat Point
+      Gb-1"
+    100134: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B Gb-"
+    100136: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.000"
+    100138: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.001"
+    100140: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.002"
+    100142: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.003"
+    100144: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.004"
+    100146: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.005"
+    100148: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.006"
+    100150: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-1"
+    100152: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-2"
+    100154: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-3"
+    100156: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-4"
+    100158: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-1"
+    100160: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-2"
+    100162: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-10"
+    100164: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-11"
+    100166: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-12"
+    100168: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-13"
+    100170: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-2"
+    100172: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-3"
+    100174: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-4"
+    100176: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-5"
+    100178: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-6"
+    100180: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-7"
+    100182: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-8"
+    100184: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-9"
+    100186: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-1"
+    100188: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-2"
+    100190: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-1"
+    100192: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-2"
+    100194: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-1"
+    100196: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-2"
+    100198: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57081-1"
+    100200: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57082-1"
+    100202: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u57AB\u7247-1"
+    100204: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u76D6-1"
+    100206: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u901A\u6C14\u585E-1"
+    100208: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1"
+    100210: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6C14\u5B54\u585E-1"
+    100212: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6E38\u6807\u5C3A-1"
+    100214: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1"
+    100216: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I-1"
+    100218: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I0-1"
+    100220: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-1"
+    100222: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-2"
+    100224: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1"
+    100226: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1"
+    100228: "a - \u8F74\u5957I-1-1"
+    100230: "a - \u8F74\u5957I-2-1"
+    100232: "a - \u8F74\u5957II-1-1"
+    100234: "a - \u8F74\u5957II-2-1"
+    100236: "a - \u8F74\u5957III-1-1"
+    100238: "a - \u8F74\u5957III-2-1"
+    100240: "A - \u952E18-45-1"
+    100242: "A - \u952E18-45-2"
+    100244: "A - \u952E18-80-1"
+    100246: "A - \u952E32-63-1"
+    100248: "A - \u952E32-63-2"
+    100250: "A - \u9AD8\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    100252: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2"
+    100254: //RootNode
+    100256: "\u4E8C\u7EA7\u9F7F\u8F6E\u51CF\u901F\u5668 - Angular Contact Ball Bearings
+      Gb-1"
+    100258: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.001"
+    100260: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1.001"
+    100262: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.000"
+    100264: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2.001"
+    100266: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1.001"
+    100268: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1.001"
+    100270: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.002"
+    100272: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.003"
+    100274: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.004"
+    400000: A - Angular Contact Ball Bearings Gb-1
+    400002: A - Angular Contact Ball Bearings Gb-2
+    400004: A - Angular Contact Ball Bearings Gb-3
+    400006: A - Angular Contact Ball Bearings Gb-4
+    400008: A - Angular Contact Ball Bearings Gb-5
+    400010: A - Angular Contact Ball Bearings Gb-6
+    400012: "a - III\u8F74-1"
+    400014: "a - II\u8F74-2"
+    400016: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    400018: "A - \u4F4E\u901F\u7EA7-\u5C0F\u9F7F\u8F6E-1"
+    400020: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-1"
+    400022: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-10"
+    400024: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-11"
+    400026: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-12"
+    400028: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-13"
+    400030: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-14"
+    400032: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-15"
+    400034: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-16"
+    400036: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-17"
+    400038: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-18"
+    400040: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-19"
+    400042: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-2"
+    400044: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-20"
+    400046: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-21"
+    400048: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-22"
+    400050: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-23"
+    400052: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-24"
+    400054: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-25"
+    400056: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-26"
+    400058: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-27"
+    400060: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-28"
+    400062: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-29"
+    400064: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-3"
+    400066: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-30"
+    400068: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-31"
+    400070: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-32"
+    400072: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-33"
+    400074: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-34"
+    400076: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-35"
+    400078: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-36"
+    400080: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-37"
+    400082: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-38"
+    400084: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-39"
+    400086: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-4"
+    400088: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-40"
+    400090: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-41"
+    400092: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-42"
+    400094: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-43"
+    400096: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-44"
+    400098: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-5"
+    400100: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-6"
+    400102: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-7"
+    400104: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-8"
+    400106: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-9"
+    400108: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-10"
+    400110: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-11"
+    400112: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-12"
+    400114: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-13"
+    400116: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-14"
+    400118: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-3"
+    400120: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-4"
+    400122: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-5"
+    400124: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-6"
+    400126: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-7"
+    400128: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-8"
+    400130: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-9"
+    400132: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Socket Set Screws With Flat Point
+      Gb-1"
+    400134: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B Gb-"
+    400136: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.000"
+    400138: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.001"
+    400140: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.002"
+    400142: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.003"
+    400144: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.004"
+    400146: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.005"
+    400148: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.006"
+    400150: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-1"
+    400152: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-2"
+    400154: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-3"
+    400156: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-4"
+    400158: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-1"
+    400160: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-2"
+    400162: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-10"
+    400164: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-11"
+    400166: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-12"
+    400168: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-13"
+    400170: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-2"
+    400172: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-3"
+    400174: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-4"
+    400176: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-5"
+    400178: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-6"
+    400180: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-7"
+    400182: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-8"
+    400184: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-9"
+    400186: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-1"
+    400188: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-2"
+    400190: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-1"
+    400192: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-2"
+    400194: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-1"
+    400196: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-2"
+    400198: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57081-1"
+    400200: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57082-1"
+    400202: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u57AB\u7247-1"
+    400204: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u76D6-1"
+    400206: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u901A\u6C14\u585E-1"
+    400208: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1"
+    400210: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6C14\u5B54\u585E-1"
+    400212: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6E38\u6807\u5C3A-1"
+    400214: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1"
+    400216: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I-1"
+    400218: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I0-1"
+    400220: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-1"
+    400222: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-2"
+    400224: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1"
+    400226: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1"
+    400228: "a - \u8F74\u5957I-1-1"
+    400230: "a - \u8F74\u5957I-2-1"
+    400232: "a - \u8F74\u5957II-1-1"
+    400234: "a - \u8F74\u5957II-2-1"
+    400236: "a - \u8F74\u5957III-1-1"
+    400238: "a - \u8F74\u5957III-2-1"
+    400240: "A - \u952E18-45-1"
+    400242: "A - \u952E18-45-2"
+    400244: "A - \u952E18-80-1"
+    400246: "A - \u952E32-63-1"
+    400248: "A - \u952E32-63-2"
+    400250: "A - \u9AD8\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    400252: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2"
+    400254: //RootNode
+    400256: "\u4E8C\u7EA7\u9F7F\u8F6E\u51CF\u901F\u5668 - Angular Contact Ball Bearings
+      Gb-1"
+    400258: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.001"
+    400260: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1.001"
+    400262: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.000"
+    400264: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2.001"
+    400266: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1.001"
+    400268: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1.001"
+    400270: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.002"
+    400272: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.003"
+    400274: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.004"
+    2100000: No Name
+    2300000: A - Angular Contact Ball Bearings Gb-1
+    2300002: A - Angular Contact Ball Bearings Gb-2
+    2300004: A - Angular Contact Ball Bearings Gb-3
+    2300006: A - Angular Contact Ball Bearings Gb-4
+    2300008: A - Angular Contact Ball Bearings Gb-5
+    2300010: A - Angular Contact Ball Bearings Gb-6
+    2300012: "a - III\u8F74-1"
+    2300014: "a - II\u8F74-2"
+    2300016: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    2300018: "A - \u4F4E\u901F\u7EA7-\u5C0F\u9F7F\u8F6E-1"
+    2300020: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-1"
+    2300022: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-10"
+    2300024: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-11"
+    2300026: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-12"
+    2300028: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-13"
+    2300030: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-14"
+    2300032: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-15"
+    2300034: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-16"
+    2300036: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-17"
+    2300038: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-18"
+    2300040: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-19"
+    2300042: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-2"
+    2300044: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-20"
+    2300046: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-21"
+    2300048: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-22"
+    2300050: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-23"
+    2300052: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-24"
+    2300054: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-25"
+    2300056: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-26"
+    2300058: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-27"
+    2300060: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-28"
+    2300062: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-29"
+    2300064: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-3"
+    2300066: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-30"
+    2300068: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-31"
+    2300070: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-32"
+    2300072: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-33"
+    2300074: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-34"
+    2300076: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-35"
+    2300078: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-36"
+    2300080: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-37"
+    2300082: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-38"
+    2300084: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-39"
+    2300086: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-4"
+    2300088: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-40"
+    2300090: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-41"
+    2300092: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-42"
+    2300094: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-43"
+    2300096: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-44"
+    2300098: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-5"
+    2300100: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-6"
+    2300102: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-7"
+    2300104: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-8"
+    2300106: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-9"
+    2300108: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-10"
+    2300110: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-11"
+    2300112: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-12"
+    2300114: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-13"
+    2300116: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-14"
+    2300118: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-3"
+    2300120: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-4"
+    2300122: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-5"
+    2300124: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-6"
+    2300126: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-7"
+    2300128: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-8"
+    2300130: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-9"
+    2300132: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Socket Set Screws With Flat Point
+      Gb-1"
+    2300134: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B Gb-"
+    2300136: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.000"
+    2300138: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.001"
+    2300140: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.002"
+    2300142: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.003"
+    2300144: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.004"
+    2300146: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.005"
+    2300148: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.006"
+    2300150: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-1"
+    2300152: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-2"
+    2300154: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-3"
+    2300156: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-4"
+    2300158: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-1"
+    2300160: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-2"
+    2300162: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-10"
+    2300164: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-11"
+    2300166: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-12"
+    2300168: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-13"
+    2300170: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-2"
+    2300172: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-3"
+    2300174: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-4"
+    2300176: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-5"
+    2300178: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-6"
+    2300180: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-7"
+    2300182: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-8"
+    2300184: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-9"
+    2300186: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-1"
+    2300188: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-2"
+    2300190: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-1"
+    2300192: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-2"
+    2300194: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-1"
+    2300196: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-2"
+    2300198: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57081-1"
+    2300200: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57082-1"
+    2300202: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u57AB\u7247-1"
+    2300204: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u76D6-1"
+    2300206: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u901A\u6C14\u585E-1"
+    2300208: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1"
+    2300210: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6C14\u5B54\u585E-1"
+    2300212: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6E38\u6807\u5C3A-1"
+    2300214: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1"
+    2300216: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I-1"
+    2300218: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I0-1"
+    2300220: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-1"
+    2300222: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-2"
+    2300224: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1"
+    2300226: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1"
+    2300228: "a - \u8F74\u5957I-1-1"
+    2300230: "a - \u8F74\u5957I-2-1"
+    2300232: "a - \u8F74\u5957II-1-1"
+    2300234: "a - \u8F74\u5957II-2-1"
+    2300236: "a - \u8F74\u5957III-1-1"
+    2300238: "a - \u8F74\u5957III-2-1"
+    2300240: "A - \u952E18-45-1"
+    2300242: "A - \u952E18-45-2"
+    2300244: "A - \u952E18-80-1"
+    2300246: "A - \u952E32-63-1"
+    2300248: "A - \u952E32-63-2"
+    2300250: "A - \u9AD8\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    2300252: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2"
+    2300254: "\u4E8C\u7EA7\u9F7F\u8F6E\u51CF\u901F\u5668 - Angular Contact Ball Bearings
+      Gb-1"
+    2300256: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.001"
+    2300258: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1.001"
+    2300260: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.000"
+    2300262: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2.001"
+    2300264: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1.001"
+    2300266: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1.001"
+    2300268: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.002"
+    2300270: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.003"
+    2300272: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.004"
+    3300000: A - Angular Contact Ball Bearings Gb-1
+    3300002: A - Angular Contact Ball Bearings Gb-2
+    3300004: A - Angular Contact Ball Bearings Gb-3
+    3300006: A - Angular Contact Ball Bearings Gb-4
+    3300008: A - Angular Contact Ball Bearings Gb-5
+    3300010: A - Angular Contact Ball Bearings Gb-6
+    3300012: "a - III\u8F74-1"
+    3300014: "a - II\u8F74-2"
+    3300016: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    3300018: "A - \u4F4E\u901F\u7EA7-\u5C0F\u9F7F\u8F6E-1"
+    3300020: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-1"
+    3300022: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-10"
+    3300024: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-11"
+    3300026: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-12"
+    3300028: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-13"
+    3300030: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-14"
+    3300032: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-15"
+    3300034: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-16"
+    3300036: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-17"
+    3300038: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-18"
+    3300040: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-19"
+    3300042: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-2"
+    3300044: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-20"
+    3300046: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-21"
+    3300048: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-22"
+    3300050: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-23"
+    3300052: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-24"
+    3300054: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-25"
+    3300056: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-26"
+    3300058: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-27"
+    3300060: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-28"
+    3300062: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-29"
+    3300064: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-3"
+    3300066: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-30"
+    3300068: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-31"
+    3300070: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-32"
+    3300072: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-33"
+    3300074: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-34"
+    3300076: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-35"
+    3300078: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-36"
+    3300080: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-37"
+    3300082: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-38"
+    3300084: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-39"
+    3300086: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-4"
+    3300088: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-40"
+    3300090: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-41"
+    3300092: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-42"
+    3300094: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-43"
+    3300096: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-44"
+    3300098: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-5"
+    3300100: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-6"
+    3300102: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-7"
+    3300104: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-8"
+    3300106: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-9"
+    3300108: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-10"
+    3300110: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-11"
+    3300112: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-12"
+    3300114: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-13"
+    3300116: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-14"
+    3300118: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-3"
+    3300120: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-4"
+    3300122: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-5"
+    3300124: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-6"
+    3300126: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-7"
+    3300128: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-8"
+    3300130: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-9"
+    3300132: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Socket Set Screws With Flat Point
+      Gb-1"
+    3300134: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B Gb-"
+    3300136: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.000"
+    3300138: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.001"
+    3300140: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.002"
+    3300142: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.003"
+    3300144: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.004"
+    3300146: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.005"
+    3300148: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.006"
+    3300150: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-1"
+    3300152: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-2"
+    3300154: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-3"
+    3300156: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-4"
+    3300158: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-1"
+    3300160: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-2"
+    3300162: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-10"
+    3300164: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-11"
+    3300166: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-12"
+    3300168: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-13"
+    3300170: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-2"
+    3300172: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-3"
+    3300174: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-4"
+    3300176: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-5"
+    3300178: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-6"
+    3300180: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-7"
+    3300182: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-8"
+    3300184: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-9"
+    3300186: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-1"
+    3300188: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-2"
+    3300190: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-1"
+    3300192: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-2"
+    3300194: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-1"
+    3300196: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-2"
+    3300198: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57081-1"
+    3300200: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57082-1"
+    3300202: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u57AB\u7247-1"
+    3300204: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u76D6-1"
+    3300206: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u901A\u6C14\u585E-1"
+    3300208: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1"
+    3300210: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6C14\u5B54\u585E-1"
+    3300212: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6E38\u6807\u5C3A-1"
+    3300214: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1"
+    3300216: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I-1"
+    3300218: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I0-1"
+    3300220: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-1"
+    3300222: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-2"
+    3300224: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1"
+    3300226: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1"
+    3300228: "a - \u8F74\u5957I-1-1"
+    3300230: "a - \u8F74\u5957I-2-1"
+    3300232: "a - \u8F74\u5957II-1-1"
+    3300234: "a - \u8F74\u5957II-2-1"
+    3300236: "a - \u8F74\u5957III-1-1"
+    3300238: "a - \u8F74\u5957III-2-1"
+    3300240: "A - \u952E18-45-1"
+    3300242: "A - \u952E18-45-2"
+    3300244: "A - \u952E18-80-1"
+    3300246: "A - \u952E32-63-1"
+    3300248: "A - \u952E32-63-2"
+    3300250: "A - \u9AD8\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    3300252: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2"
+    3300254: "\u4E8C\u7EA7\u9F7F\u8F6E\u51CF\u901F\u5668 - Angular Contact Ball Bearings
+      Gb-1"
+    3300256: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.001"
+    3300258: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1.001"
+    3300260: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.000"
+    3300262: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2.001"
+    3300264: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1.001"
+    3300266: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1.001"
+    3300268: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.002"
+    3300270: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.003"
+    3300272: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.004"
+    4300000: "\u4E8C\u7EA7\u9F7F\u8F6E\u51CF\u901F\u5668 - Angular Contact Ball Bearings
+      Gb-1"
+    4300002: A - Angular Contact Ball Bearings Gb-1
+    4300004: A - Angular Contact Ball Bearings Gb-2
+    4300006: A - Angular Contact Ball Bearings Gb-3
+    4300008: A - Angular Contact Ball Bearings Gb-4
+    4300010: A - Angular Contact Ball Bearings Gb-5
+    4300012: A - Angular Contact Ball Bearings Gb-6
+    4300014: "a - III\u8F74-1"
+    4300016: "a - II\u8F74-2"
+    4300018: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    4300020: "A - \u4F4E\u901F\u7EA7-\u5C0F\u9F7F\u8F6E-1"
+    4300022: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-1"
+    4300024: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-2"
+    4300026: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-3"
+    4300028: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-4"
+    4300030: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-5"
+    4300032: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-6"
+    4300034: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-7"
+    4300036: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-8"
+    4300038: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-9"
+    4300040: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-10"
+    4300042: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-11"
+    4300044: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-12"
+    4300046: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-13"
+    4300048: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-14"
+    4300050: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-15"
+    4300052: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-16"
+    4300054: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-17"
+    4300056: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-18"
+    4300058: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-19"
+    4300060: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-20"
+    4300062: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-21"
+    4300064: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-22"
+    4300066: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-23"
+    4300068: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-24"
+    4300070: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-25"
+    4300072: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-26"
+    4300074: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-27"
+    4300076: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-28"
+    4300078: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-29"
+    4300080: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-30"
+    4300082: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-31"
+    4300084: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-32"
+    4300086: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-33"
+    4300088: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-34"
+    4300090: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-35"
+    4300092: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-36"
+    4300094: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-37"
+    4300096: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-38"
+    4300098: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-39"
+    4300100: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-40"
+    4300102: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-41"
+    4300104: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-42"
+    4300106: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-43"
+    4300108: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Lobular Socket Head Cap Screws-8.8
+      Gb-44"
+    4300110: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-3"
+    4300112: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-4"
+    4300114: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-5"
+    4300116: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-6"
+    4300118: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-7"
+    4300120: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-8"
+    4300122: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-9"
+    4300124: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-10"
+    4300126: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-11"
+    4300128: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-12"
+    4300130: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-13"
+    4300132: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Nuts, Style 1-Grades Ab Gb-14"
+    4300134: "A - \u7BB1\u4F53\u88C5\u914D-1 Hex Socket Set Screws With Flat Point
+      Gb-1"
+    4300136: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B Gb-"
+    4300138: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.000"
+    4300140: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.001"
+    4300142: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.002"
+    4300144: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.003"
+    4300146: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.004"
+    4300148: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.005"
+    4300150: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Fit Bolts--Product Grade A And
+      B.006"
+    4300152: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-1"
+    4300154: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-2"
+    4300156: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-3"
+    4300158: "A - \u7BB1\u4F53\u88C5\u914D-1 Hexagon Head Bolts-Full Thread Gb-4"
+    4300160: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-1"
+    4300162: "A - \u7BB1\u4F53\u88C5\u914D-1 Parallel Pins Hardening Steel Gb-2"
+    4300164: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-2"
+    4300166: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-3"
+    4300168: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-4"
+    4300170: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-5"
+    4300172: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-6"
+    4300174: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-7"
+    4300176: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-8"
+    4300178: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-9"
+    4300180: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-10"
+    4300182: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-11"
+    4300184: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-12"
+    4300186: "A - \u7BB1\u4F53\u88C5\u914D-1 Spring Lock Washers--Normal Type Gb-13"
+    4300188: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-1"
+    4300190: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247I-2"
+    4300192: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-1"
+    4300194: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247II-2"
+    4300196: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-1"
+    4300198: "a - \u7BB1\u4F53\u88C5\u914D-1 \u57AB\u7247III-2"
+    4300200: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57081-1"
+    4300202: "A - \u7BB1\u4F53\u88C5\u914D-1 \u6321\u6CB9\u57082-1"
+    4300204: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u57AB\u7247-1"
+    4300206: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u76D6-1"
+    4300208: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u901A\u6C14\u585E-1"
+    4300210: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1"
+    4300212: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6C14\u5B54\u585E-1"
+    4300214: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u6E38\u6807\u5C3A-1"
+    4300216: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1"
+    4300218: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I-1"
+    4300220: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6I0-1"
+    4300222: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-1"
+    4300224: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6II-2"
+    4300226: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1"
+    4300228: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1"
+    4300230: "a - \u8F74\u5957I-1-1"
+    4300232: "a - \u8F74\u5957I-2-1"
+    4300234: "a - \u8F74\u5957II-1-1"
+    4300236: "a - \u8F74\u5957II-2-1"
+    4300238: "a - \u8F74\u5957III-1-1"
+    4300240: "a - \u8F74\u5957III-2-1"
+    4300242: "A - \u952E18-45-1"
+    4300244: "A - \u952E18-45-2"
+    4300246: "A - \u952E18-80-1"
+    4300248: "A - \u952E32-63-1"
+    4300250: "A - \u952E32-63-2"
+    4300252: "A - \u9AD8\u901F\u7EA7-\u5927\u9F7F\u8F6E-1"
+    4300254: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2"
+    4300256: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.001"
+    4300258: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III0-1.001"
+    4300260: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u76D6-1.000"
+    4300262: "A - \u9AD8\u901F\u7EA7-\u5C0F\u9F7F\u8F6E\u8F74-2.001"
+    4300264: "a - \u7BB1\u4F53\u88C5\u914D-1 \u8F74\u627F\u76D6III-1.001"
+    4300266: "A - \u7BB1\u4F53\u88C5\u914D-1 \u7BB1\u5EA7\u5E95-1.001"
+    4300268: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.002"
+    4300270: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.003"
+    4300272: "A - \u4F4E\u901F\u7EA7-\u5927\u9F7F\u8F6E-1.004"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
