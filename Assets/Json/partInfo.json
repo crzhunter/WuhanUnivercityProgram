@@ -1,18 +1,22 @@
 ﻿{
 	"partList": [{
 		"partNum": 0,
+		"partName": "名称1",
 		"partInfo": "该零件原产地美国",
 		"partImg": ""
 	}, {
 		"partNum": 1,
+		"partName": "名称2",
 		"partInfo": "该零件原产地德国",
 		"partImg": ""
 	}, {
 		"partNum": 2,
+		"partName": "名称3",
 		"partInfo": "该零件原产地中国",
 		"partImg": ""
 	}, {
 		"partNum": 3,
+		"partName": "名称4",
 		"partInfo": "该零件原产地英国",
 		"partImg": ""
 	}]

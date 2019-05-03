@@ -26,51 +26,71 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
 
     public Text tipText;
 
+    /// <summary>
+    /// 减速器模式   ----暂时只有0
+    /// </summary>
     public int startMode = 0;
+    /// <summary>
+    /// 运行模式     ----0组装图----1爆炸图----2运行工作原理
+    /// </summary>
     public int startIndex = 0;
     int resetTime = 0;
+    bool grab = false;
     
     JsonData partInfoData;
-    // Use this for initialization
+    
+    public static ThreeDTouchAnimationControl _Instance;
+
     void Start () {
+        _Instance = this;
         leftHand.GetComponent<VRTK_InteractTouch>().ControllerTouchInteractableObject += ThreeDTouchAnimationControl_ControllerTouchInteractableObject;
         leftHand.GetComponent<VRTK_InteractTouch>().ControllerUntouchInteractableObject += ThreeDTouchAnimationControl_ControllerUntouchInteractableObject;
         RightHand.GetComponent<VRTK_InteractTouch>().ControllerTouchInteractableObject += ThreeDTouchAnimationControl_ControllerTouchInteractableObject;
         RightHand.GetComponent<VRTK_InteractTouch>().ControllerUntouchInteractableObject += ThreeDTouchAnimationControl_ControllerUntouchInteractableObject;
         grabHand.ControllerUngrabInteractableObject += GrabHand_ControllerUngrabInteractableObject;
-        grabHand.ControllerGrabInteractableObject +=        GrabHand_ControllergrabInteractableObject;
-JsonParse();
+        grabHand.ControllerGrabInteractableObject += GrabHand_ControllerGrabInteractableObject;
+        JsonParse();
+        ChooseControl( ControlMode.拆装图);
     }
 
     public void JsonParse(){
         string partInfoJson = File.ReadAllText(Application.dataPath+"/json/partInfo.json");
        partInfoData= JsonMapper.ToObject(partInfoJson);
+        Debug.Log("json parse complete");
     }
 
     private void GrabHand_ControllerUngrabInteractableObject(object sender, ObjectInteractEventArgs e)
     {
+        if (grab == false) return;
+        grabHand.GetComponent<VRTK_InteractTouch>().enabled = true;
+        grab = false;
         Debug.Log(e.target.gameObject.name);
         Tweener tw= DOTween.To(()=>infoCanvas.alpha,x=>infoCanvas.alpha=x,0,1);
         tw.SetDelay(1f);
-        e.target.GetComponent<Rigidbody>().isKinematic = false;
         Debug.Log(e.target.gameObject.name);
         GrapObjectModel model = e.target.GetComponent<GrapObjectModel>();
         Sequence ctrl = DOTween.Sequence();
         ctrl.OnStart(() =>
         {
-            e.target.GetComponent<Rigidbody>().isKinematic = true;
+            DestroyImmediate(e.target.GetComponent<Rigidbody>());
         });
         ctrl.AppendInterval(2f);
         ctrl.Append(model.transform.DOLocalMove(model.pos, 1.5f));
         ctrl.Join(model.transform.DOLocalRotate(model.rotation, 1.5f));
+        ctrl.OnComplete(()=> {
+            e.target.GetComponent<Collider>().enabled = true;
+        });
         ctrl.PlayForward();
 
     }
 
-    private void GrabHand_ControllergrabInteractableObject(object sender, ObjectInteractEventArgs e)
+    private void GrabHand_ControllerGrabInteractableObject(object sender, ObjectInteractEventArgs e)
     {
+        if (grab == true) return;
+        grab = true;
+        grabHand.GetComponent<VRTK_InteractTouch>().enabled = false;
+        e.target.GetComponent<Collider>().enabled = false;
         Debug.Log(e.target.gameObject.name);
-        Pause();
         GrapObjectModel model = e.target.GetComponent<GrapObjectModel>();
         int partNum = model.partNum;
         if(partInfoData==null) return;
@@ -78,8 +98,9 @@ JsonParse();
         if(list.IsArray){
             foreach(JsonData part in list){
                 if(int.Parse( part["partNum"].ToString())==partNum){
+                    string partName = part["partName"].ToString();
                     string partInfo = part["partInfo"].ToString();
-                    tipText.text = partInfo;
+                    tipText.text = partName+"\n"+partInfo;
                     if(infoCanvas.alpha<1){
                         Tweener tw= DOTween.To(()=>infoCanvas.alpha,x=>infoCanvas.alpha=x,1,1);
                     }
@@ -112,7 +133,7 @@ JsonParse();
        
     }
 
-    void ChooseControl(ControlMode mode, ControlModel target =null)
+    void ChooseControl(ControlMode mode, ControlModel target=null)
     {
         switch (mode)
         {

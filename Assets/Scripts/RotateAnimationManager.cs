@@ -1,15 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RotateAnimationManager : MonoBehaviour {
     public float angleSpeed;
-    public float nowSpeed;
+    private float nowSpeed;
     public  float[] angleSpeeds;
     public  RotatePartsModel[] list;
     public bool isStart;
 
+    public InputField inputSpeed;
+    public Text outSpeed;
     private float speed=1;
+
+    CanvasGroup tipCanvas;
+    Text tipText;
 
     public float Speed
     {
@@ -28,13 +34,64 @@ public class RotateAnimationManager : MonoBehaviour {
                 RotatePartsModel model = list[i];
                 model.Speed = angleSpeeds[model.level];
             }
+            SetInputSpeed();
+            SetOutSpeed();
         }
     }
 
-    void Start() {
+    public float NowSpeed { get => nowSpeed; set => nowSpeed = value; }
+
+    void Awake() {
+        tipCanvas = ThreeDTouchAnimationControl._Instance.infoCanvas;
+        tipText = ThreeDTouchAnimationControl._Instance.tipText;
         list = GetComponentsInChildren<RotatePartsModel>();
         nowSpeed = angleSpeed;
         CalculateSpeed();
+        InputField.SubmitEvent ev = inputSpeed.onEndEdit;
+        ev.AddListener((string value) =>{
+            nowSpeed = float.Parse(value);
+            CalculateSpeed();
+            for (int i = 0; i < list.Length; i++)
+            {
+                RotatePartsModel model = list[i];
+                model.Speed = angleSpeeds[model.level];
+            }
+            SetOutSpeed();
+        });
+    }
+
+    void SetOutSpeed() {
+        outSpeed.text = angleSpeeds[5].ToString("F2") + "°/s";
+        tipText.text = "输入速度：" + nowSpeed.ToString("F2") + "°/s \n\n" + "输出速度：" + angleSpeeds[5].ToString("F2") + "°/s";
+    }
+
+    void SetInputSpeed()
+    {
+        inputSpeed.text = nowSpeed.ToString("F2");
+    }
+
+    private void OnEnable()
+    {
+        tipCanvas.alpha = 1;
+        tipText.text = "";
+        inputSpeed.gameObject.SetActive(true);
+        outSpeed.gameObject.SetActive(true);
+
+    }
+    private void OnDisable() {
+        tipCanvas.alpha = 0;
+        inputSpeed.gameObject.SetActive(false);
+        outSpeed.gameObject.SetActive(false);
+
+        PauseRotate();
+        speed = 1;
+        nowSpeed = angleSpeed * speed;
+        CalculateSpeed();
+        for (int i = 0; i < list.Length; i++)
+        {
+            RotatePartsModel model = list[i];
+            model.Speed = angleSpeeds[model.level];
+        }
     }
 
     void CalculateSpeed() {
@@ -54,6 +111,7 @@ public class RotateAnimationManager : MonoBehaviour {
             RotatePartsModel model = list[i];
             model.StartDoRotate(angleSpeeds[model.level]);
         }
+        SetOutSpeed();
     }
 
     public void ResetRotate()
@@ -90,17 +148,5 @@ public class RotateAnimationManager : MonoBehaviour {
             }
         }
     }
-
-    private void OnDisable()
-    {
-        PauseRotate();
-        speed = 1;
-        nowSpeed = angleSpeed * speed;
-        CalculateSpeed();
-        for (int i = 0; i < list.Length; i++)
-        {
-            RotatePartsModel model = list[i];
-            model.Speed = angleSpeeds[model.level];
-        }
-    }
+    
 }

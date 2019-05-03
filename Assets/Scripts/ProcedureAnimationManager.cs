@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using LitJson;
+using System.IO;
 
-public class ProcedureAnimationManager : MonoBehaviour {
+public class ProcedureAnimationManager : MonoBehaviour
+{
     public int NowStep;
     List<ProcedurePartsModel> Steps;
     public bool isForwardPlay;
     public bool isRevertPlay;
-    private float speed=1;
+    private float speed = 1;
     public UnityAction callback;
     BoxCollider[] boxs;
+
+    JsonData assembleData;
 
     public float Speed
     {
@@ -26,34 +31,52 @@ public class ProcedureAnimationManager : MonoBehaviour {
         }
     }
 
-    void Start() {
+    void Awake()
+    {
+        Debug.Log(Application.dataPath + "/json/partAssemble.json");
+        string json = File.ReadAllText(Application.dataPath + "/json/partAssemble.json");
+        assembleData = JsonMapper.ToObject(json);
+        assembleData = assembleData["assembleList"];
         Steps = new List<ProcedurePartsModel>();
         ProcedurePartsModel[] list = GetComponentsInChildren<ProcedurePartsModel>();
-        for (int i = 0; i < list.Length; i++) {
+        for (int i = 0; i < list.Length; i++)
+        {
             Steps.Add(list[i]);
         }
         boxs = this.GetComponentsInChildren<BoxCollider>();
+        ThreeDTouchAnimationControl._Instance.infoCanvas.alpha = 1;
+        ThreeDTouchAnimationControl._Instance.tipText.text = "";
         //ToggleGrabObjec(false);
+    }
+
+    private void OnEnable()
+    {
+        ThreeDTouchAnimationControl._Instance.infoCanvas.alpha = 1;
+        ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
     private void OnDisable()
     {
+        ThreeDTouchAnimationControl._Instance.infoCanvas.alpha = 0;
+        ThreeDTouchAnimationControl._Instance.tipText.text = "";
         ResetAni();
         StopAni();
     }
 
-    public void StartAni(UnityAction action) {
+    public void StartAni(UnityAction action)
+    {
         if (!this.gameObject.activeSelf) return;
         ResetAni();
         isForwardPlay = true;
         isRevertPlay = false;
         NowStep = 0;
         Steps[0].StartAni(JumpNextStep, Speed);
+        ThreeDTouchAnimationControl._Instance.tipText.text = assembleData[0]["partInfo"].ToString();
         Debug.Log("jump start");
         callback = action;
         ToggleGrabObjec(false);
     }
-    
+
     public void RevertAni(UnityAction action)
     {
         if (!this.gameObject.activeSelf) return;
@@ -65,7 +88,19 @@ public class ProcedureAnimationManager : MonoBehaviour {
         callback = action;
         ToggleGrabObjec(false);
     }
-    
+
+    void MoveStepChangeTip()
+    {
+        if (NowStep < assembleData.Count)
+        {
+            ThreeDTouchAnimationControl._Instance.infoCanvas.alpha = 1;
+            ThreeDTouchAnimationControl._Instance.tipText.text = assembleData[NowStep]["partInfo"].ToString();
+        }
+        else
+        {
+            ThreeDTouchAnimationControl._Instance.tipText.text = "";
+        }
+    }
 
     public void JumpNextStep(int step)
     {
@@ -74,12 +109,14 @@ public class ProcedureAnimationManager : MonoBehaviour {
         {
             NowStep = step;
             Steps[NowStep].StartAni(JumpNextStep, Speed);
+            MoveStepChangeTip();
         }
         else
         {
             ToggleGrabObjec(true);
-             isForwardPlay = false;
+            isForwardPlay = false;
             StopAni();
+            ThreeDTouchAnimationControl._Instance.tipText.text = "";
         }
     }
 
@@ -90,24 +127,31 @@ public class ProcedureAnimationManager : MonoBehaviour {
         {
             NowStep = step;
             Steps[NowStep].RevertAni(JumpLastStep, Speed);
+            MoveStepChangeTip();
         }
-        else {
+        else
+        {
             isRevertPlay = false;
             StopAni();
+            ThreeDTouchAnimationControl._Instance.tipText.text = "";
         }
     }
 
-    public void StopAni() {
+    public void StopAni()
+    {
         for (int i = 0; i < Steps.Count; i++)
         {
             Steps[i].StopAni();
         }
-        if (callback != null) {
+        if (callback != null)
+        {
             callback();
         }
+        ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
-    public void ResetAni() {
+    public void ResetAni()
+    {
         NowStep = 0;
         for (int i = 0; i < Steps.Count; i++)
         {
@@ -117,11 +161,12 @@ public class ProcedureAnimationManager : MonoBehaviour {
         isForwardPlay = false;
         isRevertPlay = false;
         Speed = 1;
+        ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
     public void FinishAni()
     {
-        NowStep = Steps.Count-1;
+        NowStep = Steps.Count - 1;
         for (int i = 0; i < Steps.Count; i++)
         {
             Steps[i].StopAni();
@@ -130,25 +175,31 @@ public class ProcedureAnimationManager : MonoBehaviour {
         isForwardPlay = false;
         isRevertPlay = false;
         ToggleGrabObjec(true);
+        ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
-    public void PauseAni() {
+    public void PauseAni()
+    {
         ToggleGrabObjec(true);
-         Steps[NowStep].Pause();
+        Steps[NowStep].Pause();
+        ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
     public void PlayAni()
     {
         ToggleGrabObjec(false);
-          Steps[NowStep].Play();
+        Steps[NowStep].Play();
+        MoveStepChangeTip();
     }
 
-    public void ToggleGrabObjec(bool isOn) {
+    public void ToggleGrabObjec(bool isOn)
+    {
         for (int i = 0; i < boxs.Length; i++)
         {
             boxs[i].enabled = isOn;
         }
-        if (isOn) {
+        if (isOn)
+        {
             for (int i = 0; i < boxs.Length; i++)
             {
                 boxs[i].GetComponent<GrapObjectModel>().SetNowTransform();
