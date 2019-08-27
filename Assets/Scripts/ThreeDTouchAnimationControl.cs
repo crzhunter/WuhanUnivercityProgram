@@ -23,7 +23,7 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
     public GameObject runObj;
 
     public CanvasGroup infoCanvas;
-
+    public Text tipTitle;
     public Text tipText;
 
     /// <summary>
@@ -101,7 +101,8 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
                 if(int.Parse( part["partNum"].ToString())==partNum){
                     string partName = part["partName"].ToString();
                     string partInfo = part["partInfo"].ToString();
-                    tipText.text = partName+"\n"+partInfo;
+                    tipTitle.text = partName;
+                    tipText.text = partInfo;
                     if(infoCanvas.alpha<1){
                         Tweener tw= DOTween.To(()=>infoCanvas.alpha,x=>infoCanvas.alpha=x,1,1);
                     }

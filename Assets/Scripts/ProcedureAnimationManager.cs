@@ -45,6 +45,7 @@ public class ProcedureAnimationManager : MonoBehaviour
         }
         boxs = this.GetComponentsInChildren<BoxCollider>();
         ThreeDTouchAnimationControl._Instance.infoCanvas.alpha = 1;
+        ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
         ThreeDTouchAnimationControl._Instance.tipText.text = "";
         //ToggleGrabObjec(false);
     }
@@ -52,12 +53,14 @@ public class ProcedureAnimationManager : MonoBehaviour
     private void OnEnable()
     {
         ThreeDTouchAnimationControl._Instance.infoCanvas.alpha = 1;
+        ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
         ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
     private void OnDisable()
     {
         ThreeDTouchAnimationControl._Instance.infoCanvas.alpha = 0;
+        ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
         ThreeDTouchAnimationControl._Instance.tipText.text = "";
         ResetAni();
         StopAni();
@@ -71,6 +74,7 @@ public class ProcedureAnimationManager : MonoBehaviour
         isRevertPlay = false;
         NowStep = 0;
         Steps[0].StartAni(JumpNextStep, Speed);
+        ThreeDTouchAnimationControl._Instance.tipTitle.text = "组装流程介绍";
         ThreeDTouchAnimationControl._Instance.tipText.text = assembleData[0]["partInfo"].ToString();
         Debug.Log("jump start");
         callback = action;
@@ -94,10 +98,12 @@ public class ProcedureAnimationManager : MonoBehaviour
         if (NowStep < assembleData.Count)
         {
             ThreeDTouchAnimationControl._Instance.infoCanvas.alpha = 1;
+            ThreeDTouchAnimationControl._Instance.tipTitle.text = "组装流程介绍";
             ThreeDTouchAnimationControl._Instance.tipText.text = assembleData[NowStep]["partInfo"].ToString();
         }
         else
         {
+            ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
             ThreeDTouchAnimationControl._Instance.tipText.text = "";
         }
     }
@@ -116,6 +122,7 @@ public class ProcedureAnimationManager : MonoBehaviour
             ToggleGrabObjec(true);
             isForwardPlay = false;
             StopAni();
+            ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
             ThreeDTouchAnimationControl._Instance.tipText.text = "";
         }
     }
@@ -133,6 +140,7 @@ public class ProcedureAnimationManager : MonoBehaviour
         {
             isRevertPlay = false;
             StopAni();
+            ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
             ThreeDTouchAnimationControl._Instance.tipText.text = "";
         }
     }
@@ -147,6 +155,7 @@ public class ProcedureAnimationManager : MonoBehaviour
         {
             callback();
         }
+        ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
         ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
@@ -161,6 +170,7 @@ public class ProcedureAnimationManager : MonoBehaviour
         isForwardPlay = false;
         isRevertPlay = false;
         Speed = 1;
+        ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
         ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
@@ -175,6 +185,7 @@ public class ProcedureAnimationManager : MonoBehaviour
         isForwardPlay = false;
         isRevertPlay = false;
         ToggleGrabObjec(true);
+        ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
         ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 
@@ -182,6 +193,7 @@ public class ProcedureAnimationManager : MonoBehaviour
     {
         ToggleGrabObjec(true);
         Steps[NowStep].Pause();
+        ThreeDTouchAnimationControl._Instance.tipTitle.text = "";
         ThreeDTouchAnimationControl._Instance.tipText.text = "";
     }
 

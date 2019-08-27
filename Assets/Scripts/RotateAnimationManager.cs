@@ -15,6 +15,7 @@ public class RotateAnimationManager : MonoBehaviour {
     private float speed=1;
 
     CanvasGroup tipCanvas;
+    Text tipTitle;
     Text tipText;
 
     public float Speed
@@ -43,6 +44,7 @@ public class RotateAnimationManager : MonoBehaviour {
 
     void Awake() {
         tipCanvas = ThreeDTouchAnimationControl._Instance.infoCanvas;
+        tipTitle = ThreeDTouchAnimationControl._Instance.tipTitle;
         tipText = ThreeDTouchAnimationControl._Instance.tipText;
         list = GetComponentsInChildren<RotatePartsModel>();
         nowSpeed = angleSpeed;
@@ -62,6 +64,7 @@ public class RotateAnimationManager : MonoBehaviour {
 
     void SetOutSpeed() {
         outSpeed.text = angleSpeeds[5].ToString("F2") + "°/s";
+        tipTitle.text = "实时速度";
         tipText.text = "输入速度：" + nowSpeed.ToString("F2") + "°/s \n\n" + "输出速度：" + angleSpeeds[5].ToString("F2") + "°/s";
     }
 
@@ -74,6 +77,7 @@ public class RotateAnimationManager : MonoBehaviour {
     {
         tipCanvas.alpha = 1;
         tipText.text = "";
+        tipTitle.text = "";
         inputSpeed.gameObject.SetActive(true);
         outSpeed.gameObject.SetActive(true);
 
