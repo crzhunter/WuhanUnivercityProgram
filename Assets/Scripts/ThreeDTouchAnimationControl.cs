@@ -25,6 +25,9 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
     public CanvasGroup infoCanvas;
     public Text tipTitle;
     public Text tipText;
+    public MeshRenderer render;
+    public Texture2D[] textures;
+    public int nowShowTex2D=0;
 
     /// <summary>
     /// 减速器模式   ----暂时只有0
@@ -128,7 +131,7 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
         Tweener tw = e.target.transform.DOLocalMoveY(e.target.transform.localPosition.y - 0.01f, 0.2f);
         tw.OnComplete(() =>
         {
-            e.target.transform.localPosition = new Vector3(e.target.transform.localPosition.x, 0, e.target.transform.localPosition.z);
+            //e.target.transform.localPosition = new Vector3(e.target.transform.localPosition.x, 0, e.target.transform.localPosition.z);
             e.target.transform.DOLocalMoveY(e.target.transform.localPosition.y + 0.01f, 0.2f);
         });
         Debug.Log(e.target.name);
@@ -201,6 +204,14 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
                 em.gameObject.SetActive(false);
                 rm.gameObject.SetActive(true);
                 AniPlayOver();
+                break;
+            case ControlMode.上个图片:
+                nowShowTex2D = nowShowTex2D >= 1 ? nowShowTex2D - 1 : 0;
+                render.material.SetTexture("_MainTex", textures[nowShowTex2D]);
+                break;
+            case ControlMode.下个图片:
+                nowShowTex2D = nowShowTex2D < textures.Length-1 ? nowShowTex2D + 1 : textures.Length - 1;
+                render.material.SetTexture("_MainTex", textures[nowShowTex2D]);
                 break;
         }
     }
@@ -392,4 +403,6 @@ public enum ControlMode {
     原理图,
     模式1,
     模式2,
+    上个图片,
+    下个图片
 }
