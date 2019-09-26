@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 1725649529
+CRC: 956965812
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: "a - \u7BB1\u4F53\u88C5\u914D-1 \u7AA5\u89C6\u5B54-\u76D6-1"
+      Name: part1
       Dependencies: {}

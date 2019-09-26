@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1678551654
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a31b053d90729050ddbc8cfd310a90ad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e37d934de1f1a2fc08afff5a7e36f4b1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ffa8eaa75c907b14bb9b157c0f84873e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sample/part3.prefab
+Dependencies: []

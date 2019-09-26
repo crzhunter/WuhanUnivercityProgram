@@ -30,7 +30,7 @@ public class ToolEditor : MonoBehaviour {
         }
         builds[0].assetNames = TestAsset;
         builds[0].assetBundleName = selects[0].name;
-        BuildPipeline.BuildAssetBundles(Application.dataPath , builds, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+        BuildPipeline.BuildAssetBundles(Application.dataPath+ "/AssetBundles", builds, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
         AssetDatabase.Refresh();
     }
 }

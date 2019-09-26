@@ -11,6 +11,7 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
     public ProcedureAnimationManager am;
     public ExplosionAnimationManager em;
     public RotateAnimationManager rm;
+    public ImportObjectManager im;
     public VRTK_ControllerEvents leftHand;
     public VRTK_ControllerEvents RightHand;
     public VRTK_InteractGrab grabHand;
@@ -73,18 +74,19 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
         tw.SetDelay(1f);
         Debug.Log(e.target.gameObject.name);
         GrapObjectModel model = e.target.GetComponent<GrapObjectModel>();
-        Sequence ctrl = DOTween.Sequence();
-        ctrl.OnStart(() =>
+        if (model!=null)
         {
             DestroyImmediate(e.target.GetComponent<Rigidbody>());
-        });
-        ctrl.AppendInterval(2f);
-        ctrl.Append(model.transform.DOLocalMove(model.pos, 1.5f));
-        ctrl.Join(model.transform.DOLocalRotate(model.rotation, 1.5f));
-        ctrl.OnComplete(()=> {
-            e.target.GetComponent<Collider>().enabled = true;
-        });
-        ctrl.PlayForward();
+            Sequence ctrl = DOTween.Sequence();
+            ctrl.AppendInterval(2f);
+            ctrl.Append(model.transform.DOLocalMove(model.pos, 1.5f));
+            ctrl.Join(model.transform.DOLocalRotate(model.rotation, 1.5f));
+            ctrl.OnComplete(() =>
+            {
+                e.target.GetComponent<Collider>().enabled = true;
+            });
+            ctrl.PlayForward();
+        }
 
     }
 
@@ -93,23 +95,31 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
         if (grab == true) return;
         grab = true;
         grabHand.GetComponent<VRTK_InteractTouch>().enabled = false;
-        e.target.GetComponent<Collider>().enabled = false;
+      
         Debug.Log(e.target.gameObject.name);
         GrapObjectModel model = e.target.GetComponent<GrapObjectModel>();
-        int partNum = model.partNum;
-        if(partInfoData==null) return;
-        JsonData list = partInfoData["partList"];
-        if(list.IsArray){
-            foreach(JsonData part in list){
-                if(int.Parse( part["partNum"].ToString())==partNum){
-                    string partName = part["partName"].ToString();
-                    string partInfo = part["partInfo"].ToString();
-                    tipTitle.text = partName;
-                    tipText.text = partInfo;
-                    if(infoCanvas.alpha<1){
-                        Tweener tw= DOTween.To(()=>infoCanvas.alpha,x=>infoCanvas.alpha=x,1,1);
+        if (model!=null)
+        {
+            e.target.GetComponent<Collider>().enabled = false;
+            int partNum = model.partNum;
+            if (partInfoData == null) return;
+            JsonData list = partInfoData["partList"];
+            if (list.IsArray)
+            {
+                foreach (JsonData part in list)
+                {
+                    if (int.Parse(part["partNum"].ToString()) == partNum)
+                    {
+                        string partName = part["partName"].ToString();
+                        string partInfo = part["partInfo"].ToString();
+                        tipTitle.text = partName;
+                        tipText.text = partInfo;
+                        if (infoCanvas.alpha < 1)
+                        {
+                            Tweener tw = DOTween.To(() => infoCanvas.alpha, x => infoCanvas.alpha = x, 1, 1);
+                        }
+                        break;
                     }
-                    break;
                 }
             }
         }
@@ -127,7 +137,7 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
 
     private void ThreeDTouchAnimationControl_ControllerTouchInteractableObject(object sender, ObjectInteractEventArgs e)
     {
-        if (e.target.GetComponent<GrapObjectModel>()) return;
+        if (e.target.GetComponent<GrapObjectModel>()|| e.target.GetComponent<BindScript>()) return;
         Tweener tw = e.target.transform.DOLocalMoveY(e.target.transform.localPosition.y - 0.01f, 0.2f);
         tw.OnComplete(() =>
         {
@@ -184,17 +194,19 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
             case ControlMode.拆装图:
                 startIndex = 0;
                 startSpeedIndex = 3;
-                am.gameObject.SetActive(true);
                 em.gameObject.SetActive(false);
                 rm.gameObject.SetActive(false);
+                im.gameObject.SetActive(false);
+                am.gameObject.SetActive(true);
                 AniPlayOver();
                 break;
             case ControlMode.爆炸图:
                 startIndex = 1;
                 startSpeedIndex = 3;
                 am.gameObject.SetActive(false);
-                em.gameObject.SetActive(true);
                 rm.gameObject.SetActive(false);
+                im.gameObject.SetActive(false);
+                em.gameObject.SetActive(true);
                 AniPlayOver();
                 break;
             case ControlMode.原理图:
@@ -202,7 +214,17 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
                 startSpeedIndex = 3;
                 am.gameObject.SetActive(false);
                 em.gameObject.SetActive(false);
+                im.gameObject.SetActive(false);
                 rm.gameObject.SetActive(true);
+                AniPlayOver();
+                break;
+                 case ControlMode.学生零件导入:
+                startIndex = 3;
+                startSpeedIndex = 3;
+                am.gameObject.SetActive(false);
+                em.gameObject.SetActive(false);
+                rm.gameObject.SetActive(false);
+                im.gameObject.SetActive(true);
                 AniPlayOver();
                 break;
             case ControlMode.上个图片:
@@ -213,6 +235,7 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
                 nowShowTex2D = nowShowTex2D < textures.Length-1 ? nowShowTex2D + 1 : textures.Length - 1;
                 render.material.SetTexture("_MainTex", textures[nowShowTex2D]);
                 break;
+           
         }
     }
 
@@ -261,6 +284,17 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
                     rm.PlayRotate();
                 }
             }
+            else if (startIndex == 3)
+            {
+                if (!im.isStart)
+                {
+                    im.StartRotate();
+                }
+                else
+                {
+                    im.PlayRotate();
+                }
+            }
         }
         else {
 
@@ -283,6 +317,10 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
             else if (startIndex == 2)
             {
                 rm.PauseRotate();
+            }
+            else if (startIndex == 3)
+            {
+                im.PauseRotate();
             }
         }
         else
@@ -315,6 +353,10 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
             {
                 rm.Speed = speedScales[startSpeedIndex];
             }
+            else if (startIndex == 3)
+            {
+                im.Speed = speedScales[startSpeedIndex];
+            }
         }
         else
         {
@@ -345,6 +387,10 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
             else if (startIndex == 2)
             {
                 rm.Speed = speedScales[startSpeedIndex];
+            }
+            else if (startIndex == 3)
+            {
+                im.Speed = speedScales[startSpeedIndex];
             }
         }
         else
@@ -378,6 +424,10 @@ public class ThreeDTouchAnimationControl : MonoBehaviour {
             {
                 rm.PauseRotate();
             }
+            else if (startIndex ==3)
+            {
+                im.PauseRotate();
+            }
         }
         else {
 
@@ -404,5 +454,7 @@ public enum ControlMode {
     模式1,
     模式2,
     上个图片,
-    下个图片
+    下个图片,
+    学生零件导入
+    
 }
